@@ -10,44 +10,55 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
 }
 
 header {
-    text-align: left;
-    margin: 5px;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 10px;
+    border: 3px solid black;
 }
 
-#header1 {
+#header {
     text-align: left;
-    margin-left: 20px;
-    color: #000000;
+    margin-right: 30px;
 }
 
 h1 {
     font-size: 2em;
 }
 
+h2 {
+    font-size: 1em;
+    text-align: left;
+}
+
 .assignments ul {
     list-style: none;
-    margin: 20px;
-    padding: 0;
+    margin-top: 1%;
+    margin-right: 5%;
+    float: right;
 }
 
 .assignments ul li {
-    margin: 10px 0;
-    text-align: center;
+    margin: 2% 0;
+    text-align: right;
 }
 
 .assignments ul li a {
     text-decoration: none;
-    color: #5d3512;
-    font-size: 1.2em;
     transition: color 0.3s;
 }
 
 .assignments ul li a:hover {
     color: #ff2f6a;
+}
+
+.assignments img {
+    object-fit: cover;
+    width: 500px;
+    height: 150px;
 }
 
 footer {
@@ -100,6 +111,27 @@ footer {
     font-style: italic;
   }
 
-#sketch-container{
-    margin: 30px; 
+.container{
+    width: 1100px; 
+}
+
+.left-column {
+    float: left;
+    width: 30%;
+
+}
+
+.right-column {
+    float: left;
+    width: 70%;
+}
+
+.sketch-container {
+    width: 100%;
+    height: 400px;
+    margin: 20px;
+}
+
+hr.solid {
+  border-top: 3px solid #000000;
 }
