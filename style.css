@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+}
+
+header {
+    text-align: left;
+    margin: 5px;
+}
+
+#header1 {
+    text-align: left;
+    margin-left: 20px;
+    color: #000000;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.assignments ul {
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+}
+
+.assignments ul li {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.assignments ul li a {
+    text-decoration: none;
+    color: #5d3512;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.assignments ul li a:hover {
+    color: #ff2f6a;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #777;
+    margin-top: auto;
+}
+
+.description {
+    text-align: center;
+    margin: 20px;
+    width: 500px; 
+
+}
+
+.averia-libre-light {
+    font-family: "Averia Libre", system-ui;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+.averia-libre-regular {
+    font-family: "Averia Libre", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.averia-libre-bold {
+    font-family: "Averia Libre", system-ui;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+.averia-libre-light-italic {
+    font-family: "Averia Libre", system-ui;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+.averia-libre-regular-italic {
+    font-family: "Averia Libre", system-ui;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+.averia-libre-bold-italic {
+    font-family: "Averia Libre", system-ui;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+#sketch-container{
+    margin: 30px; 
+}
