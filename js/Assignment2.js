@@ -3,7 +3,8 @@ let stroke1;
 let body;
 let a;
 function setup() {
-  createCanvas(400, 400);
+  let canvas = createCanvas(400, 400);
+  canvas.parent('sketch-container');
   frameRate(20);
   rectMode(CENTER);
   bg = 20;

@@ -2,7 +2,8 @@ let r1, r2, r3;
 let butts = [];
 
 function setup() {
-  createCanvas(400, 400);
+  let canvas = createCanvas(400, 400);
+  canvas.parent('sketch-container');
   frameRate(2);
   rectMode(CENTER);
   angleMode(DEGREES);

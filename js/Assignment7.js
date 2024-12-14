@@ -10,7 +10,8 @@ function preload() {
 }
 
 function setup() {
-	new Canvas(400, 600);
+	let canvas = createCanvas(400, 600);
+	canvas.parent('sketch-container');
 	noStroke();
 	world.autoStep = false;
 

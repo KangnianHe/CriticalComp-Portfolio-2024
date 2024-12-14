@@ -18,9 +18,10 @@ function preload () {
 }
 
 function setup() {
-  createCanvas(600, 600,WEBGL);
+  let canvas = createCanvas(600, 600,WEBGL);
+  canvas.parent('sketch-container');
   slider = createSlider(0,6,0,1);
-  slider.position (200,height/6)
+  slider.position (width/1.25,height/1.25)
   slider.size(200);
 }
 

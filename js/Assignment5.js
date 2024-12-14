@@ -2,7 +2,8 @@ let RECT_AMOUNT,RECT_SIZE,DEGREE;
 let COLOR1, COLOR2;
 let x = 0;
 function setup() {
-  createCanvas(600, 600);
+  let canvas = createCanvas(600, 600);
+  canvas.parent('sketch-container');
   colorMode(HSB);
   RECT_SIZE = 15
   RECT_AMOUNT = width/RECT_SIZE

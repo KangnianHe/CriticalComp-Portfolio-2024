@@ -44,7 +44,8 @@ function preload(){
   
 }
 function setup() {
-  createCanvas(400, 400, WEBGL);
+  let canvas =createCanvas(400, 400, WEBGL);
+  canvas.parent('sketch-container');
   wiggleShader = createShader(vertSrc, fragSrc);
   ribbon1 = buildGeometry(() => {
     beginShape(QUAD_STRIP);
